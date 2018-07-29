@@ -1,0 +1,14 @@
+Public Function Interpolate(x, array1 As Range, array2 As Range) As Variant
+    Dim i, n As Integer
+    j = 0
+    n = array1.Count
+    For i = 1 To n - 1
+        If (array1(i) - x) * (array1(i + 1) - x) <= 0 Then
+            j = i
+        End If
+    Next i
+    If j <> 0 Then
+        Interpolate = (x - array1(j)) * ((array2(j + 1) - array2(j)) / array1(j + 1) - array1(j)) + array2(j)
+        Else: Interpolate = "FALSE"
+    End If
+End Function
