@@ -1,1 +1,3 @@
-# Usefull codes in different programing languages
+# Usefull codes:
+- Krukal-Walis test (R)
+- Interpolation function (VBA)
