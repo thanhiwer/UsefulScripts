@@ -6,5 +6,5 @@
 ### Graph theory
 - Kruskal - minimum spanning tree
 - Prim - minimum spanning tree
-- BFS- spanning tree
+- BFS - spanning tree
 - DFS - spanning tree
