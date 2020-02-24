@@ -4,4 +4,4 @@
 - Interpolation function (VBA)
 
 ### Graph theory
-- Kruskal - minimum spanning tree (Graph Theory)
+- Kruskal - minimum spanning tree
